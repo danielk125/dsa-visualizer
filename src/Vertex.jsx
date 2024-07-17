@@ -23,7 +23,7 @@ const Vertex = ({ id, position, onStartDrag, onClick, className }) => {
              style={vertexStyle}
              onMouseDown={onStartDrag ? (e) => onStartDrag(e, id) : undefined}
              onClick={handleClick}>
-            {id}
+            <p>{id}</p>
         </div>
     );
 };

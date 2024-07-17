@@ -33,13 +33,13 @@ function HomeScreen(){
         <div>
             {activeComponent === "HomeScreen" ? (
                 <div>
-                    <div className="title">
-                        <h1 style={{ fontSize: '76px'}}>Algorithm Visualizer</h1>
-                    </div>
                     <div className="card_container">
                         <Card onClick={toBNS} image={bns} title="Binary Search" text="Binary search is an efficient algorithm that finds the position of a target value within a sorted array by repeatedly dividing the search interval in half."/>
                         <Card onClick={toQS} image={qs} title="Quick Sort" text="Quick sort is an efficient, recursive divide-and-conquer algorithm that selects a pivot element to partition the array into sub-arrays, then sorts the sub-arrays independently."/>
                         <Card onClick={toGraph} image={graph} title="Graph" text="Graphs are data structures that represent relationships between pairs of objects, consisting of vertices (or nodes) connected by edges."/>
+                    </div>
+                    <div className="title">
+                        <h1 style={{ fontSize: '76px'}}>Algorithm Visualizer</h1>
                     </div>
                     
 
